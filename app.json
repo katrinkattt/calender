@@ -1,30 +1,49 @@
 {
   "expo": {
-    "name": "calender",
+    "name": "calendar",
     "slug": "calender",
+    "privacy": "hidden",
+    "owner": "katrinn",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "icon": "./assets/icon.png",
+      "userInterfaceStyle": "light",
+      "requireFullScreen": true,
+      "bundleIdentifier": "Catttapps",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#ffffff",
+        "icon": "./assets/icon.png",
+        "versionCode": 1
+      },
+      "package": "com.katrinn.calender"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "00850aea-fc60-408b-8f73-63582a0d2bf9"
+      }
     }
   }
 }
